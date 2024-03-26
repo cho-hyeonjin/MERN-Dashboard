@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import ViewTimelineIcon from "@mui/icons-material/ViewTimeline";
-// import ScatterPlotIcon from "@mui/icons-material/ScatterPlot";
-// import StackedLineChartIcon from "@mui/icons-material/StackedLineChart";
+// import ViewTimelineIcon from "@mui/icons-material/ViewTimeline";
+import HubIcon from "@mui/icons-material/Hub";
 import { Box, Typography, useTheme } from "@mui/material";
 import FlexBetween from "@/components/FlexBetween";
 
@@ -16,9 +15,9 @@ const Navbar = (props: Props) => {
     <FlexBetween mb="0.25rem" p="0.5rem 0rem" color={palette.grey[300]}>
       {/* LEFT SIDE */}
       <FlexBetween gap="0.75rem">
-        <ViewTimelineIcon sx={{ fontSize: "28px" }} />
-        <Typography variant="h4" fontSize="16px">
-          FINDASH
+        <HubIcon sx={{ fontSize: "28px" }} />
+        <Typography variant="h4" fontSize="18px">
+          FinHub
         </Typography>
       </FlexBetween>
 
